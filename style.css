@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer image {
+  height: 1em;
+}

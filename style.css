@@ -19,3 +19,7 @@ main {
 footer img {
   height: 1em;
 }
+
+footer [data-tooltip] {
+  text-decoration: none;
+}

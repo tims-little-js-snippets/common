@@ -11,6 +11,9 @@ footer {
 
 main {
   flex-grow: 1;
+  min-height: 0;
+  flex-basis: 0;
+  overflow-y: auto;
 }
 
 footer img {

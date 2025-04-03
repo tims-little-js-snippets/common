@@ -10,10 +10,10 @@
   }
 
   function addStyle(path) {
-    const picoStyle = document.createElement("link");
-    picoStyle.rel = "stylesheet";
-    picoStyle.href = path;
-    document.head.appendChild();
+    const styleEl = document.createElement("link");
+    styleEl.rel = "stylesheet";
+    styleEl.href = path;
+    document.head.appendChild(styleEl);
   }
 
   function addFooter() {
